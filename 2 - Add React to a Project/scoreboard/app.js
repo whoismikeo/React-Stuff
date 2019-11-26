@@ -14,15 +14,22 @@
 //     </header>
 // );
 
-function Header() {
-    return (
+//---------Next, converting to arrow function-------
+// function Header() {
+//     return (
+//         <header>
+//             <h1>Scoreboard</h1>
+//             <span className="stats">Players: 1</span>
+//         </header>
+//     );
+// }
+
+function Header = () => (
         <header>
             <h1>Scoreboard</h1>
             <span className="stats">Players: 1</span>
         </header>
     );
-}
-
 
 
 
